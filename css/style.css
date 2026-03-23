@@ -10,5 +10,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6; /*altura entre as linhas 1.6x o tamanho da fonte*/
     color: #333; /*cor do texto 'cinza escuro'*/ 
+    /*gradiente de fundo: 135deg é a direção, de roxo claro para roxo escuro*/
+    background: linear-gradient(135deg,#667eea 0%, #764ba2 100%);
+    min-height: 100vh; /*vh = viewport height. Mínimo de 100% da altura da tela*/
 }
 
