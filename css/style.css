@@ -36,5 +36,23 @@ header img{
 header img:hover{/*hover  = quando passa o mouse por cima faz alguma coisa*/
     transform: scale(1.05);/*aumenta 5% do tamanho da imagem original*/
 }
+nav a{
+    text-decoration: none;/*remove o sublinhado padrão dos links*/
+    color: #764ba2;/*defino uma cor do texto roxo*/
+    font-weight: 600;/*peso da fonte (semi negrito)*/
+    padding: 0.5rem 1rem;/*8px em cima/baixo e 16px nas laterais*/
+    border-radius: 25px;/*bordas arredondadas*/
+    transition: all 0.3s ease;/*transição suave para todas as propriedades*/
+    position: relative;/*necessário para o pseudo-elemento ::after*/
+}
+nav a:hover{
+    background-color: #764ba2;
+    color: white;
+    transform: translateY(-2px);/*move 2 pixels para cima*/
+    box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);/*sombra roxa suave*/
+}
+nav a::after{/**/
+
+}
 
 
